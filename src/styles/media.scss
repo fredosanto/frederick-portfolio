@@ -1,0 +1,46 @@
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 860px;
+
+@media (max-width: $breakpoint-tablet) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    order: 2;
+    position: relative;
+    height: 6%;
+    width: 100%;
+
+    .social-link {
+      display: inline-block;
+      transform: rotate(0deg);
+      margin: 0 100px;
+    }
+  }
+}
+@media (max-width: $breakpoint-tablet) {
+  .home-section {
+    flex-direction: column;
+
+    .section-left {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+
+      .description-container {
+        max-width: 500px;
+      }
+    }
+    .section-right {
+      width: 100%;
+      ul {
+        padding-left: 0;
+        list-style: none;
+      }
+      .nav-link {
+        text-align: center;
+      }
+    }
+  }
+}
