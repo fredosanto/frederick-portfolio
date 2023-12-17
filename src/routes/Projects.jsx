@@ -1,10 +1,13 @@
+import { SocialBar } from "../components/layout/SocialBar";
+import { ProjectSection } from "../components/projects/ProjectSection";
 import "../styles/main.scss";
 import "../styles/projects.scss";
+
 export function Projects() {
   return (
-    <div>
-      <h1>Projects</h1>
-      <div>My projects</div>
+    <div className="container project-container">
+      <SocialBar />
+      <ProjectSection />
     </div>
   );
 }
