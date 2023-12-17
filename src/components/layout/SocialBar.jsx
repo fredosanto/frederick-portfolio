@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export function SocialBar() {
   return (
@@ -13,7 +13,7 @@ export function SocialBar() {
           <a href="https://github.com/fredosanto">GitHub</a>
         </div>
         <div className="social-link">
-          <Link to="contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
       </div>
     </div>
