@@ -1,19 +1,5 @@
 @use "variables" as v;
 
-// .project-container {
-//   height: 100%;
-// }
-
-#projects {
-  //   background-color: v.$bg-secondary;
-  //   background-color: #58847c;
-  //   color: v.$base-color;
-  //   height: 100%;
-}
-
-// .section-left {
-//   position: fixed;
-// }
 .projects-wrapper {
   display: flex;
   //   flex-direction: row;
@@ -27,6 +13,7 @@
 
   .back-btn {
     align-self: flex-start;
+    color: #000000;
   }
 }
 
@@ -60,11 +47,6 @@
   //   max-height: 500px;
 
   .card-container {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-
     .card {
       display: flex;
       flex-direction: column;
