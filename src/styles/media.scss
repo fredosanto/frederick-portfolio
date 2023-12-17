@@ -29,6 +29,11 @@ $breakpoint-mobile: 860px;
   .projects-header {
     width: 100%;
   }
+
+  .about-content-section {
+    width: 80%;
+    text-align: center;
+  }
 }
 
 @media (max-width: $breakpoint-mobile) {
@@ -68,5 +73,10 @@ $breakpoint-mobile: 860px;
     //   transform: rotate(0deg);
     //   margin: 0 25px;
     // }
+  }
+
+  .about-content-section {
+    width: 100%;
+    text-align: center;
   }
 }
