@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import picture from "/cv.png";
 import "../styles/main.scss";
 import "../styles/about.scss";
 import { SocialBar } from "../components/layout/SocialBar";
@@ -20,7 +21,7 @@ function AboutContent() {
         toolbox.
       </p>
       <div className="portrait">
-        <img src="/public/cv.JPG" alt="" />
+        <img src={picture} alt="" />
       </div>
     </div>
   );
