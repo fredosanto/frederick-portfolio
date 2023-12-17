@@ -5,7 +5,7 @@ import "../styles/home.scss";
 
 export function Home() {
   return (
-    <div className="container">
+    <div className="container home-container">
       <SocialBar />
       <HomeSection />
     </div>
